@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search_profile"
+        android:title="Search for a profile"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_standard"
+            android:title="Standard"
+            android:checked="true"/>
+        <item
+            android:id="@+id/profile_ironman"
+            android:title="Ironman" />
+        <item
+            android:id="@+id/profile_ultimate"
+            android:title="Ultimate" />
+    </group>
+
+</menu>

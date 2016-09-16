@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cbb28e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for a Profile"
+        android:id="@+id/profile_name"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:textStyle="bold"
+        android:textColor="#1d2b85" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                 Skill Name                           Level                                          Rank                              Exp"
+        android:id="@+id/textView"
+        android:singleLine="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/skill_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
